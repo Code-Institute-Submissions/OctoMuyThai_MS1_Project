@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200;300;400;700;800&family=Cairo:wght@200;300;400;600;700;900&display=swap');
+
+/*-----------------------------------Header*/
+
+header {
+    margin: 0;
+}
+
+.logo {
+    background: url(../images/OctoMuyThaiLogo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    transition: all .75s ease-in;
+    -moz-transition: all .75s ease-in;
+    -webkit-transition: all .75s ease-in;
+}
+
+.gym-name {
+    font-family: "Cairo", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.gym-tag-line {
+    font-family: "BioRhyme", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
