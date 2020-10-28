@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200;300;400;700;800&family=Cairo:wght@200;300;400;600;700;900&display=swap');
 
+/*-----------------------------------Colors*/
+
+.bg-color-header {
+    background-color: #884dff;
+}
+
 /*-----------------------------------Header*/
 
 header {
@@ -11,21 +17,119 @@ header {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border: 1px solid #000000;
-    border-radius: 50%;
-    transition: all .75s ease-in;
-    -moz-transition: all .75s ease-in;
-    -webkit-transition: all .75s ease-in;
+    transition: all .75s ease-in-out;
+    -moz-transition: all .75s ease-in-out;
+    -webkit-transition: all .75s ease-in-out;
+    min-height: 180px;
 }
 
 .gym-name {
     font-family: "Cairo", sans-serif;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 46px;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.gym-name:hover {
+    color: #ff9933;
 }
 
 .gym-tag-line {
     font-family: "BioRhyme", sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+/*-----------------------------------Home Section*/
+
+.fitter-pic {
+    background: url(../images/MuyThaiTrainingPicture1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    min-height: 180px;
+}
+
+.faster-pic {
+    background: url(../images/MuyThaiTrainingPicture2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    min-height: 180px;
+}
+
+.stronger-pic {
+    background: url(../images/muythaitrainingpicture3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    min-height: 180px;
+}
+
+.section-heading {
+    font-family: "Cairo", sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+}
+
+section p {
+    font-family: "BioRhyme", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.gym-name-span {
+    font-family: "Cairo", sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.gym-name-span:hover {
+    color: #ff9933;
+}
+
+/*-----------------------------------Footer*/
+
+footer {
+    background-color: #aa80ff;
+    color: #fff;
+    margin: 0;
+    font-family: "BioRhyme", sans-serif;
+}
+
+.contact-us h5 a {
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links li a i {
+    color: #fff;
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 50%;
+    text-decoration: none;
 }
