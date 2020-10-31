@@ -3,7 +3,11 @@
 /*-----------------------------------Colors*/
 
 .bg-color-header {
-    background-color: #884dff;
+    background-color: #0C0032;
+}
+
+section {
+    background: #190061;
 }
 
 /*-----------------------------------Header*/
@@ -12,15 +16,19 @@ header {
     margin: 0;
 }
 
+img {
+    max-height: 120px;
+    max-width: 100%;
+    width: 60px;
+    height: auto;
+    position: relative;
+    margin-left: 50%;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
 .logo {
-    background: url(../images/OctoMuyThaiLogo.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: all .75s ease-in-out;
-    -moz-transition: all .75s ease-in-out;
-    -webkit-transition: all .75s ease-in-out;
-    min-height: 180px;
+    background-color: #0C0032;
 }
 
 .gym-name {
@@ -29,7 +37,7 @@ header {
     font-size: 46px;
     color: #fff;
     margin-top: 30px;
-    margin-left: 10px;
+    text-align: center;
 }
 
 .gym-name:hover {
@@ -41,23 +49,61 @@ header {
     font-weight: 400;
     font-size: 18px;
     color: #fff;
-    margin-left: 10px;
+    text-align: center;
 }
 
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
 
+.navcontainer {
+    font-size: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0;
+}
+
+.navitem {
+    height: 60px;
+    padding: 0;
+    text-align: center;
+    background-color: #0C0032;
+}
+
+.navitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 60px;
+    z-index: 1;
+}
+
+.navitem a:hover {
+    color: #0C0032;
+    background-color: #fff;
+}
+
+
 /*-----------------------------------Home Section*/
+
+
 
 .fitter-pic {
     background: url(../images/MuyThaiTrainingPicture1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border: 2px solid #000000;
+    border: 2px solid #fff;
     border-radius: 50%;
     min-height: 180px;
+    color: #fff;
 }
 
 .faster-pic {
@@ -65,9 +111,10 @@ header {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border: 2px solid #000000;
+    border: 2px solid #fff;
     border-radius: 50%;
     min-height: 180px;
+    color: #fff;
 }
 
 .stronger-pic {
@@ -75,9 +122,10 @@ header {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border: 2px solid #000000;
+    border: 2px solid #fff;
     border-radius: 50%;
     min-height: 180px;
+    color: #fff;
 }
 
 .section-heading {
@@ -85,11 +133,13 @@ header {
     font-size: 22px;
     font-weight: 800;
     text-align: center;
+    color: #fff;
 }
 
 section p {
     font-family: "BioRhyme", sans-serif;
     font-size: 12px;
+    color: #fff;
     font-weight: 600;
 }
 
@@ -103,10 +153,17 @@ section p {
     color: #ff9933;
 }
 
+.train-with-us {
+    font-family: "Cairo", sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+}
+
 /*-----------------------------------Footer*/
 
 footer {
-    background-color: #aa80ff;
+    background-color: #0c0032;
     color: #fff;
     margin: 0;
     font-family: "BioRhyme", sans-serif;
