@@ -41,13 +41,13 @@ img {
 }
 
 .gym-name:hover {
-    color: #ff9933;
+    color: #ffb31a;
 }
 
 .gym-tag-line {
     font-family: "BioRhyme", sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     color: #fff;
     text-align: center;
 }
@@ -68,6 +68,7 @@ img {
     font-size: 14px;
     font-weight: 600;
     padding: 0;
+    text-transform: uppercase;
 }
 
 .navitem {
@@ -80,14 +81,14 @@ img {
 .navitem a {
     width: 100%;
     text-decoration: none;
-    color: #fff;
+    color: #ffb31a;
     height: 60px;
-    z-index: 1;
 }
 
 .navitem a:hover {
     color: #0C0032;
-    background-color: #fff;
+    background-color: #ffb31a;
+    opacity: 0.7;
 }
 
 
@@ -150,15 +151,10 @@ section p {
 }
 
 .gym-name-span:hover {
-    color: #ff9933;
+    color: #ffb31a;
 }
 
-.train-with-us {
-    font-family: "Cairo", sans-serif;
-    font-size: 22px;
-    font-weight: 800;
-    text-align: center;
-}
+
 
 /*-----------------------------------Footer*/
 
@@ -169,12 +165,22 @@ footer {
     font-family: "BioRhyme", sans-serif;
 }
 
-.contact-us h5 a {
+.train-with-us {
+    font-family: "Cairo", sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.train-with-us h5 a {
+    color: #fff;
+    text-transform: none;
+    margin-top: 40px;
+}
+
+.train-with-us h5 a:hover {
+    color: #ffb31a;
+    font-size: 150%;
     text-decoration: none;
-    font-size: 16px;
-    text-align: center;
-    font-weight: 700;
-    margin-top: 20px;
 }
 
 .social-links {
@@ -189,4 +195,9 @@ footer {
     text-align: center;
     border-radius: 50%;
     text-decoration: none;
+}
+
+.social-links li a i:hover {
+    color: #ffb31a;
+    font-size: 130%;
 }
