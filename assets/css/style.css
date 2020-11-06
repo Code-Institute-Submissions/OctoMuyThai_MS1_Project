@@ -154,7 +154,16 @@ section p {
     color: #ffb31a;
 }
 
+/*-----------------------------------Sign Up*/
 
+.where-to-find-us {
+    background: url(../images/WhereToFindUs.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-height: 360px;
+}
 
 /*-----------------------------------Footer*/
 
