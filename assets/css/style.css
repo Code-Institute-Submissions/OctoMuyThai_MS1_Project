@@ -154,6 +154,16 @@ section p {
     color: #ffb31a;
 }
 
+/*-----------------------------------Timetable*/
+
+.timetable-pic {
+    background: url(../images/muythaitrainingpicture4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 180px;
+}
+
 /*-----------------------------------Techniques*/
 
 iframe {
