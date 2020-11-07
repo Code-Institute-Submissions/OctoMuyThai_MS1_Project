@@ -25,6 +25,7 @@ img {
     margin-left: 50%;
     border: 2px solid #fff;
     border-radius: 50%;
+    z-index: 1;
 }
 
 .logo {
@@ -67,7 +68,6 @@ img {
 #nav li {
     font-size: 14px;
     font-weight: 600;
-    padding: 0;
     text-transform: uppercase;
 }
 
@@ -162,6 +162,51 @@ section p {
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 180px;
+}
+
+.times {
+    color: #ffb31a;
+    font-size: 120%;
+}
+
+.timetable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.day-heading {
+    font-family: "Cairo", sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.prices-bg {
+    background-color: #fff;
+    text-align: center;
+}
+
+.price {
+    color: #ffb31a;
+    font-family: "BioRhyme", sans-serif;
+    font-size: 44px;
+    font-weight: 800;
+    
+}
+
+.price-heading {
+    font-family: "Cairo", sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    color: #190061;
+}
+
+.prices-bg p {
+    color: #190061;
+    font-family: "BioRhyme", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 /*-----------------------------------Techniques*/
