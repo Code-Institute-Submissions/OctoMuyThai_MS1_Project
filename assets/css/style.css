@@ -11,7 +11,7 @@ body {
 }
 
 section {
-    background: #C85C37;
+    background-color: #C85C37;
 }
 
 /*-----------------------------------Header*/
@@ -185,25 +185,25 @@ section p {
 }
 
 .prices-bg {
-    background-color: #fff;
+    background-color:#C85C37;
     text-align: center;
 }
 
 .price {
     color: #ffb31a;
-    font-size: 44px;
-    font-weight: 600;
+    font-size: 36px;
+    font-weight: 200;
     
 }
 
 .price-heading {
     font-size: 22px;
     font-weight: 600;
-    color: #C85C37;
+    color: #fff;
 }
 
 .prices-bg p {
-    color: #C85C37;
+    color: #fff;
     font-size: 12px;
     font-weight: 300;
 }
