@@ -164,7 +164,7 @@ section p {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
+    min-height: 480px; 
 }
 
 .times {
