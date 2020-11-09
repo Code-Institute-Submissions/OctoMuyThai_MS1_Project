@@ -41,7 +41,7 @@ img {
 }
 
 .gym-name {
-    font-weight: 800;
+    font-weight: 900;
     font-size: 46px;
     color: #fff;
     margin-top: 30px;
@@ -53,7 +53,7 @@ img {
 }
 
 .gym-tag-line {
-    font-weight: 400;
+    font-weight: 700;
     font-size: 15px;
     color: #fff;
     text-align: center;
@@ -137,7 +137,7 @@ img {
 
 .section-heading {
     font-size: 22px;
-    font-weight: 800;
+    font-weight: 600;
     text-align: center;
     color: #fff;
 }
@@ -145,12 +145,12 @@ img {
 section p {
     font-size: 12px;
     color: #fff;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 .gym-name-span {
     font-size: 14px;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .gym-name-span:hover {
@@ -180,7 +180,7 @@ section p {
 
 .day-heading {
     font-size: 22px;
-    font-weight: 800;
+    font-weight: 600;
     color: #fff;
 }
 
@@ -192,20 +192,20 @@ section p {
 .price {
     color: #ffb31a;
     font-size: 44px;
-    font-weight: 800;
+    font-weight: 600;
     
 }
 
 .price-heading {
     font-size: 22px;
-    font-weight: 800;
+    font-weight: 600;
     color: #190061;
 }
 
 .prices-bg p {
     color: #190061;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 /*-----------------------------------Techniques*/
@@ -218,12 +218,10 @@ iframe {
 /*-----------------------------------Sign Up*/
 
 .where-to-find-us {
-    background: url(../images/wheretofindus.jpg);
+    background: url("../images/WhereToFindUs.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-    max-height: 360px;
 }
 
 .signup-form {
@@ -234,7 +232,7 @@ iframe {
 .form-label {
     font-size: 12px;
     color: #fff;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
 }
 
@@ -248,7 +246,7 @@ footer {
 
 .train-with-us {
     font-size: 22px;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .train-with-us h5 a {
@@ -259,7 +257,7 @@ footer {
 
 .train-with-us h5 a:hover {
     color: #ffb31a;
-    font-size: 150%;
+    font-size: 120%;
     text-decoration: none;
 }
 
