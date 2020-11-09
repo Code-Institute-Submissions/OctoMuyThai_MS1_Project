@@ -24,16 +24,20 @@ img {
     max-height: 120px;
     max-width: 100%;
     width: 60px;
-    height: auto;
     position: relative;
-    margin-left: 50%;
+    margin: 0 auto;
     border: 2px solid #fff;
     border-radius: 50%;
     z-index: 1;
 }
 
-.logo {
+.logo-banner {
     background-color: #0C0032;
+    width: 100%;
+}
+
+.logo-img {
+    margin: 0 auto;
 }
 
 .gym-name {
@@ -64,7 +68,7 @@ img {
 }
 
 #nav {
-    margin: 0;
+    margin: 0 auto;
 }
 
 #nav li {
