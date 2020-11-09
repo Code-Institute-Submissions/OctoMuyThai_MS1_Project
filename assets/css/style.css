@@ -164,7 +164,7 @@ section p {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 180px;
+
 }
 
 .times {
@@ -192,8 +192,7 @@ section p {
 .price {
     color: #ffb31a;
     font-size: 36px;
-    font-weight: 200;
-    
+    font-weight: 200; 
 }
 
 .price-heading {
@@ -222,6 +221,7 @@ iframe {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 240px;
 }
 
 .signup-form {
