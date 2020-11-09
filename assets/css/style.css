@@ -7,11 +7,11 @@ body {
 /*-----------------------------------Colors*/
 
 .bg-color-header {
-    background-color: #0C0032;
+    background-color: #37a3c8;
 }
 
 section {
-    background: #190061;
+    background: #C85C37;
 }
 
 /*-----------------------------------Header*/
@@ -32,7 +32,7 @@ img {
 }
 
 .logo-banner {
-    background-color: #0C0032;
+    background-color: #37a3c8;
     width: 100%;
 }
 
@@ -81,7 +81,7 @@ img {
     height: 60px;
     padding: 0;
     text-align: center;
-    background-color: #0C0032;
+    background-color: #37a3c8;
 }
 
 .navitem a {
@@ -92,7 +92,7 @@ img {
 }
 
 .navitem a:hover {
-    color: #0C0032;
+    color: #37a3c8;
     background-color: #ffb31a;
     opacity: 0.7;
 }
@@ -199,11 +199,11 @@ section p {
 .price-heading {
     font-size: 22px;
     font-weight: 600;
-    color: #190061;
+    color: #C85C37;
 }
 
 .prices-bg p {
-    color: #190061;
+    color: #C85C37;
     font-size: 12px;
     font-weight: 300;
 }
@@ -239,7 +239,7 @@ iframe {
 /*-----------------------------------Footer*/
 
 footer {
-    background-color: #0c0032;
+    background-color: #37a3c8;
     color: #fff;
     margin: 0;
 }
