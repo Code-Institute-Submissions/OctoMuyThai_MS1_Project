@@ -87,13 +87,13 @@ img {
 .navitem a {
     width: 100%;
     text-decoration: none;
-    color: #ffb31a;
+    color: #C85C37;
     height: 60px;
 }
 
 .navitem a:hover {
     color: #37a3c8;
-    background-color: #ffb31a;
+    background-color: #C85C37;
     opacity: 0.7;
 }
 
