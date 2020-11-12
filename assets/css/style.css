@@ -97,7 +97,14 @@ img {
 
 /*-----------------------------------Home Section*/
 
-
+.first-pic-homepage {
+    background: url(../images/muythai.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    width: 100%;
+}
 
 .fitter-pic {
     background: url(../images/MuyThaiTrainingPicture1.jpg);
@@ -210,6 +217,7 @@ iframe {
     width: 100%;
     max-height: 300px;
     border: 2px solid #fff;
+    border-radius: 10%;
 }
 
 /*-----------------------------------Sign Up*/
