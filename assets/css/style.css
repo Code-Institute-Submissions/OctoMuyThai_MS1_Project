@@ -220,6 +220,15 @@ iframe {
     border-radius: 10%;
 }
 
+.techniques-banner-pic {
+    background: url(../images/muythaitrainingpicture5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+}
+
 /*-----------------------------------Sign Up*/
 
 .where-to-find-us {
