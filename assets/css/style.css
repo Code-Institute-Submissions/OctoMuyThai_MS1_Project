@@ -36,10 +36,6 @@ img {
     width: 100%;
 }
 
-.logo-img {
-    margin: 0 auto;
-}
-
 .gym-name {
     font-weight: 900;
     font-size: 46px;
@@ -94,6 +90,7 @@ img {
 .navitem a:hover {
     color: #37a3c8;
     background-color: #C85C37;
+    opacity: 0.9;
 }
 
 
@@ -210,7 +207,7 @@ section p {
 
 iframe {
     width: 100%;
-    max-height: 240px;
+    max-height: 300px;
 }
 
 /*-----------------------------------Sign Up*/
