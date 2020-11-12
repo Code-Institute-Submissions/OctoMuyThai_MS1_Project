@@ -209,6 +209,7 @@ section p {
 iframe {
     width: 100%;
     max-height: 300px;
+    border: 2px solid #fff;
 }
 
 /*-----------------------------------Sign Up*/
