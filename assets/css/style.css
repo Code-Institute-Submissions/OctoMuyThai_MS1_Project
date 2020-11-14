@@ -29,12 +29,12 @@ img {
     border: 2px solid #fff;
     border-radius: 50%;
     z-index: 1;
-    margin-left: 50%;
 }
 
 .logo-banner {
     background-color: #37a3c8;
     width: 100%;
+    text-align: center;
 }
 
 .gym-name {
@@ -215,7 +215,7 @@ section p {
 
 iframe {
     width: 100%;
-    max-height: 300px;
+    max-height: 360px;
     border: 2px solid #fff;
     border-radius: 10%;
 }
@@ -243,6 +243,7 @@ iframe {
     margin: 0 auto;   
     max-width: 80%;
     padding-top: 10px;
+    font-size: 16px;
 }
 
 button[type="submit"] {
@@ -250,11 +251,13 @@ button[type="submit"] {
     margin-bottom: 15px;
     color: #fff;
     background-color: #37a3c8;
+    font-weight: 600px;
 }
 
 button[type="submit"]:hover {
     color: #37a3c8;
     background-color: #fff;
+    text-transform: uppercase;
 }
 
 /*-----------------------------------Footer*/
@@ -282,9 +285,9 @@ footer h5 {
     width: 32px;
     height: 32px;
     font-size: 16px;
-    margin-left: 50%;
     border-radius: 50%;
     text-decoration: none;
+    margin-bottom: 40px;
 }
 
 .social-links li a i:hover {
@@ -300,5 +303,14 @@ footer h5 {
     }
     .techniques-banner-pic {
         height: 50%;
+    }
+    footer {
+        font-size: 75%;
+    }
+}
+
+@media (max-width: 610px) {
+    #footer-nav {
+        display: none;
     }
 }
