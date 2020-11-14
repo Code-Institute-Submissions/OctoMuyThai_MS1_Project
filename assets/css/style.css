@@ -252,6 +252,11 @@ button[type="submit"] {
     background-color: #37a3c8;
 }
 
+button[type="submit"]:hover {
+    color: #37a3c8;
+    background-color: #fff;
+}
+
 /*-----------------------------------Footer*/
 
 footer {
