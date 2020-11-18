@@ -79,8 +79,6 @@ img {
     padding: 0;
     text-align: center;
     background-color: #37a3c8;
-    top: 50%;
-    left: 50%;
 }
 
 .navitem a {
@@ -88,6 +86,8 @@ img {
     text-decoration: none;
     color: #C85C37;
     height: 60px;
+    left: 50%;
+    top: 50%;
 }
 
 .navitem a:hover {
@@ -239,6 +239,7 @@ iframe {
     background-repeat: no-repeat;
     height: 600px;
     width: 100%;
+    background-color: #C85C37;
 }
 
 /*-----------------------------------Sign Up*/
