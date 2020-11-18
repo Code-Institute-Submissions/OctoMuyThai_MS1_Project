@@ -2,6 +2,8 @@
 
 <img src="assets/images/octomuythailogo.jpg" width="240" height="240">
 
+[Vector (logo) image by VectorStock / freepik](https://www.vectorstock.com/royalty-free-vector/flat-web-icon-with-long-shadow-octopus-vector-13710527)
+
 This website is for the OctoMuyThai gym and is a gym training students in the Thailand martial art of Muy Thai. The website is designed to work across a range of platforms from desktop to mobile to allow easy accessiblity for current and new students alike as well as those interested casually in the art of Muy Thai.
 
 ## User experience
@@ -66,26 +68,75 @@ The imagery is vital especially with the logo which incorporates the eight limbs
 * CSS3
 
 ## Frameworks, Libraries and Programs Used
-1. Bootstrap 4.5.2:
-* Bootstrap was used to assist with the styling and responsiveness of the website
-2. Hover.css:
-* Hover.css was used on the navigation bar to perform a float animation as the mouse hovers over each navigation item.
-3. Google Fonts
-* Google fonts was used to import the Cairo and BioRhyme fonts into the style.css file which is used through the pages in this project.
-4. Font Awesome
-* Font awesome was used for the social media links in the footer of the pages of the project.
-5. Git
-* Git was used for version control by utilising the Gitpod terminal to commit to Git and push to Github.
-6. Github
-* Github was used to store the project code and to host and display the project in Github Pages.
-7. Balsamiq
-* Balsamiq was used to create the wireframes to provide a guide for the design.
+1. Bootstrap 4.5.2 - Bootstrap was used to assist with the styling and responsiveness of the website
+2. Hover.css - Hover.css was used on the navigation bar to perform a float animation as the mouse hovers over each navigation item.
+3. Google Fonts - Google fonts was used to import the Cairo and BioRhyme fonts into the style.css file which is used through the pages in this project.
+4. Font Awesome - Font awesome was used for the social media links in the footer of the pages of the project.
+5. Git - Git was used for version control by utilising the Gitpod terminal to commit to Git and push to Github.
+6. Github - Github was used to store the project code and to host and display the project in Github Pages.
+7. Balsamiq - Balsamiq was used to create the wireframes to provide a guide for the design.
 
 ## Testing
 The W3C Markup Validator and W3C CSS Validator were used to validate every page of the project to avoid any syntax errors.
 
 * W3C Markup Validator - frameborder attribute in the iframe element deemed obselete thus subsequently removed - no other errors or warnings were flagged.
-* W3C CSS Validator - 
+* W3C CSS Validator - px was used when giving a value for font-weight and isn't valid thus was subsequently corrected - no other errors or warnings were flagged.
+
+## Further Testing
+* The Website was tested on Google Chrome, Internet Explorer, Safari and Firefox.
+* The Website was tested on laptop, Iphone and Samsung Galaxy S8.
+* A large amount of testing was done to ensure all links across pages are working correctly.
+* A friend, who is a fullstack developer, was asked to review the site and documentation to point out any bugs or user experience issues.
+
+## Fixed Bugs/Issues
+* I had an issue whereby the rows under the main heading row were sticking out making the website look uneven. I finally figured out is that those other rows in the header required the Bootstrap class "no-gutters" as well as the row where the main title was on.
+* There was issue with images being used as backgrounds for various divs and as a result being cut-off in an unaesthetic way. I re-sized the images and amended the margins in the content to ensure the background images now show in a more aesthetic way.
+* I had an issue centering the logo image and resolved this by using the class in the col div and giving it text-align: center to ensure that anything placed within it is centered i.e. the logo image.
+* While testing the Website on Iphone using the Safari browser saw that my map picture on the sign up page was sticking out to the right of everything else on the page. I removed the margin-left styling from the css and instead used a width styling of 100% to resolve this.
+
+
+## Deployment
+### GitHub Pages
+The project was deployed to GitHub pages using the following steps:
+1. Log into GitHub and locate the GitHub Repository.
+2. At the top of the Repository, locate the Settings button on the menu.
+3. Scroll down the Settings page until you locate the GitHub pages section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://oludare89.github.io/OctoMuyThai_MS1_Project/) in the GitHub Pages section.
+
+### Forking GitHub Repository
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make amendments without changing the original respository using the following steps:
+1. Log into GitHub and locate the GitHub Repository.
+2. At the top of the Repository just above the Settings button on the menu, select the "Fork" button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+## Credits
+
+### Code
+* Bootstrap4 - The Bootstrap library used throughout the project to make site responsive using the Bootstrap Grid System. 
+
+### Media
+* [Vector (logo) image by VectorStock / freepik](https://www.vectorstock.com/royalty-free-vector/flat-web-icon-with-long-shadow-octopus-vector-13710527)
+* [Landing page picture under Stronger heading](https://www.shutterstock.com/image-photo/african-american-boxer-making-yap-punch-1737635906) by [Mongkolchon Akesin](https://www.shutterstock.com/g/Mongkolchon+Akesin)
+* [Landing page picture under Faster heading](https://www.shutterstock.com/image-photo/asian-kickboxing-player-him-trainer-boxing-1526544206) by [Anek Soowannaphoom](https://www.shutterstock.com/g/aneoho)
+* [Landing page picture under Fitter heading](https://www.shutterstock.com/image-photo/kickboxing-696160894) by [Artur Didyk](https://www.shutterstock.com/g/Artur+Didyk)
+* [Techniques background picture](https://www.shutterstock.com/image-vector/sketch-muay-thai-fighter-1408113755) by [Xamyak](https://www.shutterstock.com/g/UAKPAEV)
+* [Timetable picture](https://www.shutterstock.com/image-vector/modern-martial-arts-combat-sports-muay-1816904075) by [Sophy Photos](https://www.shutterstock.com/g/Sophy+Photos)
+* Technique Youtube videos by [fightTIPS](https://www.youtube.com/user/FightTipsVideos) all coaches there have been an inspiration to my own personal training Shane Fazen, Coach PJ, Vince "The Anomaly" and Erin Herle
+* Main picture on landing page produced by developer
+
+### Written Content
+All written content produced by developer.
+
+### Acknowledgements
+* My Mentor for helpful feedback.
+* Feedback from Adnan Ahmed "[AAAdnan](https://github.com/AAAdnan)".
+
+
+
+
+
 
 
 

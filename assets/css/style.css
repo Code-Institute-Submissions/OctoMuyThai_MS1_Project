@@ -272,7 +272,7 @@ iframe {
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 240px;
-    margin-left: 15px;
+    width: 100%;
 }
 
 .signup-form {
