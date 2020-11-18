@@ -65,7 +65,9 @@ img {
 }
 
 #nav {
-    margin: 0 auto;
+    margin: 20px, 0, 0, 0;
+    top: 50%;
+    left: 50%;
 }
 
 #nav li {
@@ -92,6 +94,12 @@ img {
     color: #37a3c8;
     background-color: #C85C37;
     opacity: 0.9;
+}
+
+.credit {
+    font-size: 6px;
+    color: #fff;
+    text-decoration: none;
 }
 
 
@@ -144,12 +152,16 @@ img {
     font-weight: 600;
     text-align: center;
     color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 section p {
     font-size: 12px;
     color: #fff;
     font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .gym-name-span {
@@ -237,11 +249,12 @@ iframe {
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 240px;
+    margin-left: 15px;
 }
 
 .signup-form {
-    margin: 0 auto;   
-    max-width: 80%;
+    margin-top: 20px;   
+    width: 100%;
     padding-top: 10px;
     font-size: 16px;
 }
@@ -258,6 +271,7 @@ button[type="submit"]:hover {
     color: #37a3c8;
     background-color: #fff;
     text-transform: uppercase;
+    font-weight: 800px;
 }
 
 /*-----------------------------------Footer*/
@@ -274,6 +288,10 @@ footer h5 {
     text-transform: none;
     margin-top: 10px;
     font-size: 18px;
+}
+
+#footer-nav {
+    font-size: 14px;
 }
 
 .social-links li a i {
@@ -295,10 +313,10 @@ footer h5 {
 
 @media (max-width: 992px) {
     .first-pic-homepage {
-        height: 50%;
+        height: 75%;
     }
     .techniques-banner-pic {
-        height: 50%;
+        height: 75%;
     }
     footer {
         font-size: 75%;
