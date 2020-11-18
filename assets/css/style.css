@@ -20,7 +20,12 @@ header {
     margin: 0;
 }
 
-img {
+.logo-banner {
+    background-color: #37a3c8;
+    text-align: center;
+}
+
+.logo-banner img {
     max-height: 120px;
     max-width: 100%;
     width: 60px;
@@ -29,11 +34,6 @@ img {
     border: 2px solid #fff;
     border-radius: 50%;
     z-index: 1;
-}
-
-.logo-banner {
-    background-color: #37a3c8;
-    text-align: center;
 }
 
 .gym-name {
@@ -107,12 +107,35 @@ img {
 /*-----------------------------------Home Section*/
 
 .first-pic-homepage {
-    background: url(../images/muythai.jpg);
+    background-image: linear-gradient(rgba(200,92,55,0.5), rgba(200,92,55,1)), url(../images/muythai.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 900px;
-    width: 100%;
+    text-align: center;
+}
+
+.first-pic-homepage img {
+    max-height: 250px;
+    width: 250px;
+    position: relative;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.first-pic-homepage h3 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.first-pic-homepage p {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
 }
 
 .fitter-pic {
@@ -254,9 +277,8 @@ iframe {
 
 .signup-form {
     margin-top: 20px;   
-    width: 80%;
-    padding-top: 10px;
     font-size: 16px;
+    margin-left: 50px;
 }
 
 button[type="submit"] {
