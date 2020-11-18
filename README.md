@@ -84,8 +84,8 @@ The imagery is vital especially with the logo which incorporates the eight limbs
 ## Testing
 The W3C Markup Validator and W3C CSS Validator were used to validate every page of the project to avoid any syntax errors.
 
-* W3C Markup Validator -
-* W3C CSS Validator -
+* W3C Markup Validator - frameborder attribute in the iframe element deemed obselete thus subsequently removed - no other errors or warnings were flagged.
+* W3C CSS Validator - 
 
 
 

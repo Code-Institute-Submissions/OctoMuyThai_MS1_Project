@@ -286,14 +286,14 @@ button[type="submit"] {
     margin-bottom: 15px;
     color: #fff;
     background-color: #37a3c8;
-    font-weight: 600px;
+    font-weight: 600;
 }
 
 button[type="submit"]:hover {
     color: #37a3c8;
     background-color: #fff;
     text-transform: uppercase;
-    font-weight: 800px;
+    font-weight: 800;
 }
 
 /*-----------------------------------Footer*/
