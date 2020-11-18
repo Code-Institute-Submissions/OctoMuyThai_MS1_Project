@@ -33,7 +33,6 @@ img {
 
 .logo-banner {
     background-color: #37a3c8;
-    width: 100%;
     text-align: center;
 }
 
@@ -86,14 +85,16 @@ img {
     text-decoration: none;
     color: #C85C37;
     height: 60px;
-    left: 50%;
-    top: 50%;
 }
 
 .navitem a:hover {
     color: #37a3c8;
     background-color: #C85C37;
     opacity: 0.9;
+}
+
+.navitem a span {
+    vertical-align: middle;
 }
 
 .credit {
@@ -115,7 +116,7 @@ img {
 }
 
 .fitter-pic {
-    background: url(../images/MuyThaiTrainingPicture1.jpg);
+    background: url(../images/fitter-picture.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -126,7 +127,7 @@ img {
 }
 
 .faster-pic {
-    background: url(../images/MuyThaiTrainingPicture2.jpg);
+    background: url(../images/faster-picture.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -137,7 +138,7 @@ img {
 }
 
 .stronger-pic {
-    background: url(../images/muythaitrainingpicture3.jpg);
+    background: url(../images/stronger-picture.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -176,7 +177,7 @@ section p {
 /*-----------------------------------Timetable*/
 
 .timetable-pic {
-    background: url(../images/muythaitrainingpicture4.jpg);
+    background-image: linear-gradient(rgba(200,92,55,0.5), rgba(200,92,55,1)), url(../images/timetable-picture.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -233,13 +234,11 @@ iframe {
 }
 
 .techniques-banner-pic {
-    background: url(../images/muythaitrainingpicture5.jpg);
+    background-image: linear-gradient(rgba(200,92,55,0.5), rgba(200,92,55,1)), url(../images/techniques-picture.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
     width: 100%;
-    background-color: #C85C37;
 }
 
 /*-----------------------------------Sign Up*/
@@ -255,7 +254,7 @@ iframe {
 
 .signup-form {
     margin-top: 20px;   
-    width: 100%;
+    width: 80%;
     padding-top: 10px;
     font-size: 16px;
 }
