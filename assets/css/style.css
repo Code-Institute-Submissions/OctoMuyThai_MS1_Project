@@ -65,7 +65,7 @@ img {
 }
 
 #nav {
-    margin: 20px, 0, 0, 0;
+    margin: 0 auto;
 }
 
 #nav li {
@@ -79,6 +79,8 @@ img {
     padding: 0;
     text-align: center;
     background-color: #37a3c8;
+    top: 50%;
+    left: 50%;
 }
 
 .navitem a {

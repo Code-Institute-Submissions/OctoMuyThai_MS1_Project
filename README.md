@@ -1,6 +1,6 @@
 # OctoMuyThai Website
 
-<img src="assets/images/OctoMuyThaiLogo.jpg" width="240" height="240">
+<img src="assets/images/octomuythailogo.jpg" width="240" height="240">
 
 This website is for the OctoMuyThai gym and is a gym training students in the Thailand martial art of Muy Thai. The website is designed to work across a range of platforms from desktop to mobile to allow easy accessiblity for current and new students alike as well as those interested casually in the art of Muy Thai.
 
