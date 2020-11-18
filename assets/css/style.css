@@ -66,8 +66,6 @@ img {
 
 #nav {
     margin: 20px, 0, 0, 0;
-    top: 50%;
-    left: 50%;
 }
 
 #nav li {
@@ -97,7 +95,7 @@ img {
 }
 
 .credit {
-    font-size: 6px;
+    font-size: 4px;
     color: #fff;
     text-decoration: none;
 }
