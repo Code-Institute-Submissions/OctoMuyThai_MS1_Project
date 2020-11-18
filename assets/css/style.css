@@ -107,11 +107,11 @@ header {
 /*-----------------------------------Home Section*/
 
 .first-pic-homepage {
-    background-image: linear-gradient(rgba(200,92,55,0.5), rgba(200,92,55,1)), url(../images/muythai.jpg);
+    background-image: linear-gradient(rgba(200,92,55,0.5), rgba(200,92,55,1)), url(../images/landing-page-pic.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 900px;
+    height: 700px;
     text-align: center;
 }
 
@@ -119,10 +119,10 @@ header {
     max-height: 250px;
     width: 250px;
     position: relative;
-    margin: 0 auto;
+    margin-top: 80px;
     border: 2px solid #fff;
     border-radius: 50%;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 .first-pic-homepage h3 {
