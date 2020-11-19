@@ -69,27 +69,27 @@ header {
 
 #nav li {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 800;
     text-transform: uppercase;
 }
 
 .navitem {
-    height: 60px;
     padding: 0;
     text-align: center;
+    vertical-align: middle;
     background-color: #37a3c8;
 }
 
 .navitem a {
     width: 100%;
     text-decoration: none;
-    color: #C85C37;
+    color: #fff;
     height: 60px;
 }
 
 .navitem a:hover {
     color: #37a3c8;
-    background-color: #C85C37;
+    background-color: #fff;
     opacity: 0.9;
 }
 
@@ -314,7 +314,9 @@ footer h5 {
 }
 
 #footer-nav {
-    font-size: 14px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 800;
 }
 
 .social-links li a i {
@@ -346,7 +348,7 @@ footer h5 {
     }
 }
 
-@media (max-width: 610px) {
+@media (max-width: 700px) {
     #footer-nav {
         display: none;
     }
