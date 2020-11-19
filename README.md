@@ -94,6 +94,8 @@ The W3C Markup Validator and W3C CSS Validator were used to validate every page 
 * I had an issue centering the logo image and resolved this by using the class in the col div and giving it text-align: center to ensure that anything placed within it is centered i.e. the logo image.
 * While testing the Website on Iphone using the Safari browser saw that my map picture on the sign up page was sticking out to the right of everything else on the page. I removed the margin-left styling from the css and instead used a width styling of 100% to resolve this.
 
+## Known Bugs/Issues
+* Using Lighthouse report found that performance is only rated a 69. Main issue appears to be file size of pictures so will attempt to save the files in a different file format which could reduce the file size.
 
 ## Deployment
 ### GitHub Pages
