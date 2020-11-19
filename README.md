@@ -4,6 +4,8 @@
 
 [Vector (logo) image by VectorStock / freepik](https://www.vectorstock.com/royalty-free-vector/flat-web-icon-with-long-shadow-octopus-vector-13710527)
 
+![image](https://user-images.githubusercontent.com/46917417/99690723-5aa6e680-2a80-11eb-8885-725f165b1e68.png)
+
 This website is for the OctoMuyThai gym and is a gym training students in the Thailand martial art of Muy Thai. The website is designed to work across a range of platforms from desktop to mobile to allow easy accessiblity for current and new students alike as well as those interested casually in the art of Muy Thai.
 
 ## User experience
