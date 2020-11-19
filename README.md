@@ -123,6 +123,7 @@ Both those processes were replicated but this time using the Techniques page as 
 * The Website was tested on laptop, Iphone and Samsung Galaxy S8.
 * A large amount of testing was done to ensure all links across pages are working correctly.
 * A friend, who is a fullstack developer, was asked to review the site and documentation to point out any bugs or user experience issues.
+* Feedback and testing provided by friends and family.
 
 ## Fixed Bugs/Issues
 * I had an issue whereby the rows under the main heading row were sticking out making the website look uneven. I finally figured out is that those other rows in the header required the Bootstrap class "no-gutters" as well as the row where the main title was on.
@@ -133,6 +134,12 @@ Both those processes were replicated but this time using the Techniques page as 
 
 ## Known Bugs/Issues
 * Using Lighthouse report found that performance is only rated a 69. Main issue appears to be file size of pictures so given more time would attempt to save the files in a different file format which could reduce the file size.
+
+## Future Features
+If given more time and further development of skills then I would suggest these features to be added:
+* All mentions of the gym name, OctoMuyThai, should be linked back to home page.
+* On the timetable page, the times given for each class should enlarge when they are hovered over for further interaction.
+* When you complete and submit for sign up by clicking the Join Now button there should be a confirmation page or dropdown that confirms your membership submission has been received.
 
 ## Deployment
 ### GitHub Pages
