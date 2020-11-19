@@ -8,6 +8,16 @@ This website is for the OctoMuyThai gym and is a gym training students in the Th
 
 ## User experience
 
+### User Stories
+* As a site user, I want to be able to easily navigate to other pages on the website to access specific information.
+* As a site user, I want to know the name of the gym.
+* As a site user, I want to know why I should join this gym.
+* As a site user, I want to be able to see any Muy Thai techniques I'm interested in learning.
+* As a site user, I want to know the timing of the classes at the gym.
+* As a site user, I want to know the price of membership at the gym.
+* As a site user, I want to be able to join the gym.
+* As a site user, I want to find directions to get to the gym.
+
 ### Strategy Plane
 
 The goal of the website for the business owner of the gym is to encourage new students to take up and practice the martial art of Muy Thai at the OctoMuyThai gym. 
@@ -35,7 +45,7 @@ The header of the page will contain the name of the gym, tagline and logo. Withi
 ### Surface Plane
 
 #### Colour scheme
-The main colour scheme is blue and orange, specifically #37A3C8 and #C85C37. Canva's color wheel was utilisied in order to determine this colour scheme and to ensure that it was complementary.
+The main colour scheme is blue and orange, specifically #37A3C8 and #C85C37 with white text. Canva's color wheel was utilisied in order to determine this colour scheme and to ensure that it was complementary.
 
 #### Typography
 The font used is Nunito from Google Fonts.
@@ -44,20 +54,10 @@ The font used is Nunito from Google Fonts.
 The imagery is vital especially with the logo which incorporates the eight limbs philosophy of Muy Thai and matches with the colour scheme used. Background images were used in some instances with the orange background colour to complement the content.
 
 ### Wireframes
-* Home Page Wireframe
-* Techniques Page Wireframe
-* Timetable Page Wireframe
-* Sign Up Page Wireframe
-
-### User Stories
-* As a site user, I want to be able to easily navigate to other pages on the website to access specific information.
-* As a site user, I want to know the name of the gym.
-* As a site user, I want to know why I should join this gym.
-* As a site user, I want to be able to see any Muy Thai techniques I'm interested in learning.
-* As a site user, I want to know the timing of the classes at the gym.
-* As a site user, I want to know the price of membership at the gym.
-* As a site user, I want to be able to join the gym.
-* As a site user, I want to find directions to get to the gym.
+* Home Page Wireframe - [Original](https://user-images.githubusercontent.com/46917417/99689292-b8d2ca00-2a7e-11eb-980c-71d0065d8509.png) [Updated](https://user-images.githubusercontent.com/46917417/99689602-19620700-2a7f-11eb-8fa6-2c586d89a1c0.png)
+* Techniques Page Wireframe - [Original](https://user-images.githubusercontent.com/46917417/99689379-d4d66b80-2a7e-11eb-881b-16a9d324999c.png) [Updated](https://user-images.githubusercontent.com/46917417/99689678-31d22180-2a7f-11eb-98dc-c304c94c58af.png)
+* Timetable Page Wireframe - [Original](https://user-images.githubusercontent.com/46917417/99689465-f0da0d00-2a7e-11eb-9611-931731b517d6.png) [Updated](https://user-images.githubusercontent.com/46917417/99689739-42829780-2a7f-11eb-84fd-4f3f0d3d50be.png)
+* Sign Up Page Wireframe - [Original](https://user-images.githubusercontent.com/46917417/99689544-04857380-2a7f-11eb-8d4b-05cdde8e0f4f.png) [Updated](https://user-images.githubusercontent.com/46917417/99689871-65ad4700-2a7f-11eb-8a6a-dd9865de1911.png)
 
 ## Features
 * Responsive and functional on all device sizes
@@ -79,8 +79,15 @@ The imagery is vital especially with the logo which incorporates the eight limbs
 ## Testing
 The W3C Markup Validator and W3C CSS Validator were used to validate every page of the project to avoid any syntax errors.
 
-* W3C Markup Validator - frameborder attribute in the iframe element deemed obselete thus subsequently removed - no other errors or warnings were flagged.
-* W3C CSS Validator - px was used when giving a value for font-weight and isn't valid thus was subsequently corrected - no other errors or warnings were flagged.
+* W3C Markup Validator - frameborder attribute in the iframe element deemed obselete thus subsequently removed - no other errors or warnings were flagged - [see results for homepage](https://user-images.githubusercontent.com/46917417/99657407-07b83980-2a56-11eb-8e74-c59b871311ec.png), [see results for techniques page](https://user-images.githubusercontent.com/46917417/99657695-6ed5ee00-2a56-11eb-89da-18ba48643f10.png), [see results for timetable page](https://user-images.githubusercontent.com/46917417/99657890-a5136d80-2a56-11eb-987e-132b58464dac.png) and [see results for sign up page](https://user-images.githubusercontent.com/46917417/99658020-d2f8b200-2a56-11eb-9945-b01bd39bc56a.png)
+* W3C CSS Validator - px was used when giving a value for font-weight and isn't valid thus was subsequently corrected - no other errors or warnings were flagged - [see results post-correction](https://user-images.githubusercontent.com/46917417/99656353-ad6aa900-2a54-11eb-88a5-a75d493768e7.png)
+
+## Interactive Testing
+* Tested the interaction that hovering over the main gym title highlights it a gold colour - [see screenshot](https://user-images.githubusercontent.com/46917417/99667611-8d42e600-2a64-11eb-8f5b-82ff6a5eba3f.png).
+* Tested the interaction that in the main content hovering over the name of the gym highlights it a gold colour - [see screenshot](https://user-images.githubusercontent.com/46917417/99667708-b2375900-2a64-11eb-9903-3f1ac18f6e49.png).
+* Tested the interaction that hovering over the social media links highlights it a gold colour and enlarges it - [see Facebook icon screenshot](https://user-images.githubusercontent.com/46917417/99667855-e27ef780-2a64-11eb-8f03-f77336a615d8.png), [see Instagram icon screenshot](https://user-images.githubusercontent.com/46917417/99667812-d004be00-2a64-11eb-9318-6f6d75af84f0.png), [see Twitter icon screenshot](https://user-images.githubusercontent.com/46917417/99667964-04787a00-2a65-11eb-9773-bd42a507e485.png) and [see Youtube icon screenshot](https://user-images.githubusercontent.com/46917417/99668089-2ffb6480-2a65-11eb-9420-2eb8d7a93e54.png).
+* Tested the interaction that hovering over the navigation items in the header produces a float shadow effect and inverse the colour changing text from white to blue and background from blue to white - [see Home navigation screenshot](https://user-images.githubusercontent.com/46917417/99668166-46a1bb80-2a65-11eb-902b-b6d2ddb5e7eb.png), [see Techniques navigation screenshot](https://user-images.githubusercontent.com/46917417/99668244-63d68a00-2a65-11eb-999f-da5a68b184c8.png), [see Timetable navigation screenshot](https://user-images.githubusercontent.com/46917417/99668331-7bae0e00-2a65-11eb-8043-eafbc6ea3024.png) and [see Sign Up navigation screenshot](https://user-images.githubusercontent.com/46917417/99668435-a0a28100-2a65-11eb-8e6b-9b6f3f626baf.png).
+* Tested the same interaction as above for the navigation items in the footer - [see Home navigation screenshot](https://user-images.githubusercontent.com/46917417/99668575-d8a9c400-2a65-11eb-87a6-eee3dda6465d.png), [see Techniques navigation screenshot](https://user-images.githubusercontent.com/46917417/99668620-e65f4980-2a65-11eb-9d26-137e89f34c68.png), [see Timetable navigation screenshot](https://user-images.githubusercontent.com/46917417/99668940-46ee8680-2a66-11eb-9a40-3c8952c5286f.png) and [see Sign Up navigation screenshot](https://user-images.githubusercontent.com/46917417/99669145-8f0da900-2a66-11eb-92ae-c680652b9a8b.png).
 
 ## Further Testing
 * The Website was tested on Google Chrome, Internet Explorer, Safari and Firefox.
@@ -93,9 +100,10 @@ The W3C Markup Validator and W3C CSS Validator were used to validate every page 
 * There was issue with images being used as backgrounds for various divs and as a result being cut-off in an unaesthetic way. I re-sized the images and amended the margins in the content to ensure the background images now show in a more aesthetic way.
 * I had an issue centering the logo image and resolved this by using the class in the col div and giving it text-align: center to ensure that anything placed within it is centered i.e. the logo image.
 * While testing the Website on Iphone using the Safari browser saw that my map picture on the sign up page was sticking out to the right of everything else on the page. I removed the margin-left styling from the css and instead used a width styling of 100% to resolve this.
+* I experienced an issue with the footer navigation bar where the items got squahsed together at smaller screen sizes so I amended the media query so that the footer navigation bar disappears at a slightly bigger screen size.
 
 ## Known Bugs/Issues
-* Using Lighthouse report found that performance is only rated a 69. Main issue appears to be file size of pictures so will attempt to save the files in a different file format which could reduce the file size.
+* Using Lighthouse report found that performance is only rated a 69. Main issue appears to be file size of pictures so given more time would attempt to save the files in a different file format which could reduce the file size.
 
 ## Deployment
 ### GitHub Pages
@@ -112,6 +120,16 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 1. Log into GitHub and locate the GitHub Repository.
 2. At the top of the Repository just above the Settings button on the menu, select the "Fork" button.
 3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+1. Log into GitHub and locate the GitHub Repository.
+2. Click the Code button next to the Gitpod button.
+3. You will get a small dropdown titled Clone with the HTTPS option already selected.
+4. To clone the repository using HTTPS, copy the link.
+5. Open Git Bash.
+6. Change the current working directory to the location where you want the cloned directory to be made.
+7. Type 'git clone', and then paste the link you copied in Step 4.
+8. Press Enter. Your local clone will be created.
 
 ## Credits
 
